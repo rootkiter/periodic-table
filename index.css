@@ -4,10 +4,55 @@
     box-sizing: border-box;
 } 
 
+.per-cell {
+    width: 4.4rem;
+    height: 4.4rem;
+
+    background: rgb(0, 43, 52);
+    color     : rgb(119, 232, 255);
+    border    : 4px solid rgb(119, 232, 255);
+}
+
+.cell-head {
+    width : 4rem;
+    height: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cell-proton {
+    padding-left: 0.3rem;
+}
+
+.cell-en {
+    padding-right: 0.6rem;
+}
+
+.cell-body-cn {
+    width : 4rem;
+    height: 1.9rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-right: 0.3rem;
+
+    font-weight: bolder;
+}
+
+.cell-foot-quality {
+    width : 4rem;
+    height: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    padding-right: 0.3rem;
+}
+
+.cell-packing {
+    padding : 0.2rem;
+}
+
 .element-top {
     width : 80rem;
     height: 40rem;
-    --background: lightblue;
     margin: 4rem auto;
 
     display: flex;
@@ -61,49 +106,49 @@
     margin: 0rem 0.2rem;
 }
 
-.base-color {
+.cell-nonmetal-color {
     background: rgb(0, 43, 52);
     color:      rgb(119, 232, 255);
     border: 4px solid rgb(119, 232, 255);
 }
 
-.metal-color {
+.cell-alkali-color {
     background: rgb(52, 0, 9);
     color:      rgb(255, 119, 142);
     border: 4px solid rgb(255, 119, 142);
 }
 
-.unmetal-color {
+.cell-alkaline-color {
     background: rgb(52, 16, 0);
     color:      rgb(255, 161, 119);
     border: 4px solid rgb(255, 161, 119);
 }
 
-.other-color {
+.cell-transition-color {
     background: rgb(45, 52, 0);
     color:      rgb(236, 255, 119);
     border: 4px solid rgb(236, 255, 119);
 }
 
-.b-color {
+.cell-metalloid-color {
     background: rgb(0, 52, 14);
     color:      rgb(119, 255, 155);
     border: 4px solid rgb(119, 255, 155);
 }
 
-.f-color {
+.cell-halogen-color {
     background: rgb(0, 37, 52);
     color:      rgb(140, 119, 255);
     border: 4px solid rgb(140, 119, 255);
 }
 
-.he-color {
+.cell-noble-color {
     background: rgb(42, 0, 52);
     color:      rgb(235, 120, 255);
     border: 4px solid rgb(235, 120, 255);
 }
 
-.uus-color {
+.cell-none-color {
     background: rgb(217, 217, 217);
     color:      rgb(127, 127, 127);
     border: 4px solid rgb(127, 127, 127);
